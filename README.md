@@ -16,6 +16,7 @@ This is a small challenge designed to test your scraping abilities.
 
 ### Useful links:
 https://devhints.io/xpath
+
 https://docs.scrapy.org/en/latest/topics/selectors.html .get()/.getall() are equivalent to extract_first()/extract()
 
 ## Debugging scrapy in vscode
