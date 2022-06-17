@@ -2,7 +2,6 @@
 This is a small challenge designed to test your scraping abilities.
 ## Setup:
 1. Set up an environment and install scrapy. 
-    ### Install:
     - We **strongly recommend** using miniconda for install, since installing scrapy in windows requires separate install of C++ build tools (https://docs.scrapy.org/en/latest/intro/install.html#windows)
     - We recommend using python 3.9.
     - You only need to install scrapy to do this task.
