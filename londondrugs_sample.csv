@@ -1,0 +1,80 @@
+address,address2,adminattributes,attributes,chain_id,city,closed,coming_soon,country,distributor_name,duplicate_to,geo_accuracy,hash_primary,hash_secondary,latitude,longitude,other_fields,parse_address,phone_number,scrape_id,state,store_hours,store_hours_json,store_name,store_number,store_type,store_uid,zip_code
+3122 Mt Lehman Rd.,,,,,Abbotsford,,,CA,,,,,,,,,,(604) 870-3585,,British Columbia,,,High Street Mall,,,,V2T 0C5
+32700 South Fraser Way,,,,,Abbotsford,,,CA,,,,,,,,,,(604) 852-0936,,British Columbia,,,West Oaks Mall,,,,V2T 4M5
+4970 Kingsway Avenue,,,,,Burnaby,,,CA,,,,,,,,,,(604) 448-4806,,British Columbia,,,5000 Kingsway Plaza,,,,V5H 2E2
+4567 Lougheed Hwy,,,,,Burnaby,,,CA,,,,,,,,,,(604) 448-4856,,British Columbia,,,Brentwood Town Centre,,,,V5C 3Z6
+9855 Austin Avenue,,,,,Burnaby,,,CA,,,,,,,,,,(604) 448-4825,,British Columbia,,,Lougheed Town Centre,,,,V3J 1N4
+7280 Market Crossing,,,,,Burnaby,,,CA,,,,,,,,,,(604) 448-4871,,British Columbia,,,Marine Way and Byrne,,,,V5J 0A2
+1400 Dogwood Street,,,,,Campbell River,,,CA,,,,,,,,,,(250) 286-9917,,British Columbia,,,Mariner Square,,,,V9W 3A6
+45585 Luckakuck Way,,,,,Chilliwack,,,CA,,,,,,,,,,(604) 858-9347,,British Columbia,,,Cottonwood Mall,,,,V2R 1A1
+2929 Barnet Highway,,,,,Coquitlam,,,CA,,,,,,,,,,(604) 448-4815,,British Columbia,,,Coquitlam Centre,,,,V3B 5R5
+2751 Cliffe Avenue,,,,,Courtenay,,,CA,,,,,,,,,,(250) 703-2838,,British Columbia,,,Courtenay,,,,V9N 2L8
+7303 - 120th Street,,,,,Delta,,,CA,,,,,,,,,,(604) 448-4817,,British Columbia,,,Scott 72 Mall,,,,V4C 6P5
+5237 - 48th Avenue,,,,,Delta,,,CA,,,,,,,,,,(604) 448-4837,,British Columbia,,,Trenant Park Mall,,,,V4K 1W4
+119 Trans Canada Hwy,,,,,Duncan,,,CA,,,,,,,,,,(250) 709-9910,,British Columbia,,,Duncan,,,,V9L 3P8
+900 Gibsons Way,,,,,Gibsons,,,CA,,,,,,,,,,(604) 886-8720,,British Columbia,,,Gibsons,,,,V0N 1V7
+450 Lansdowne Street,,,,,Kamloops,,,CA,,,,,,,,,,(250) 372-0028,,British Columbia,,,Lansdowne Village,,,,V2C 1Y3
+1950 Harvey Avenue,,,,,Kelowna,,,CA,,,,,,,,,,(250) 860-3331,,British Columbia,,,Spall Plaza,,,,V1Y 8J8
+20202 - 66th Ave.,,,,,Langley,,,CA,,,,,,,,,,(604) 448-4818,,British Columbia,,,Langley,,,,V2Y 1P3
+22709 Lougheed Hwy,,,,,Maple Ridge,,,CA,,,,,,,,,,(604) 448-4847,,British Columbia,,,Valley Fair Mall,,,,V2X 2V5
+32555 London Avenue,,,,,Mission,,,CA,,,,,,,,,,(604) 820-5115,,British Columbia,,,Mission,,,,V2V 6M7
+4750 Rutherford Road,,,,,Nanaimo,,,CA,,,,,,,,,,(250) 760-2030,,British Columbia,,,Nanaimo North Town Centre,,,,V9T 4K6
+650 Terminal Ave,,,,,Nanaimo,,,CA,,,,,,,,,,(250) 753-5566,,British Columbia,,,Port Place Shopping Centre,,,,V9R 5E2
+555-6th Street,,,,,New Westminster,,,CA,,,,,,,,,,(604) 448-4803,,British Columbia,,,Westminster Centre,,,,V3L 5H1
+2032 Lonsdale Ave,,,,,North Vancouver,,,CA,,,,,,,,,,(604) 448-4805,,British Columbia,,,North Vancouver,,,,V7M 2K5
+2111 Main Street,,,,,Penticton,,,CA,,,,,,,,,,(250) 492-4728,,British Columbia,,,Penticton,,,,V2A 6W6
+1600 -15th Avenue,,,,,Prince George,,,CA,,,,,,,,,,(250) 561-0011,,British Columbia,,,Parkwood Place,,,,V2L 3X3
+11666 Steveston Hwy,,,,,Richmond,,,CA,,,,,,,,,,(604) 448-4852,,British Columbia,,,Ironwood Plaza,,,,V7A 5J3
+5971 No.3 Road,,,,,Richmond,,,CA,,,,,,,,,,(604) 448-4811,,British Columbia,,,London Plaza,,,,V6X 2E3
+15850 26th Ave.,,,,,South Surrey,,,CA,,,,,,,,,,(604) 448-4881,,British Columbia,,,Morgan Crossing,,,,V3S 2N6
+15355 - 24th Avenue,,,,,South Surrey,,,CA,,,,,,,,,,(604) 448-4842,,British Columbia,,,Peninsula Village Mall,,,,V4A 2H9
+40282 Glenalder Place,,,,,Squamish,,,CA,,,,,,,,,,(604) 898-8270,,British Columbia,,,Garibaldi Village,,,,V8B 0G2
+17685 - 64th Avenue,,,,,Surrey,,,CA,,,,,,,,,,(604) 448-4875,,British Columbia,,,Cloverdale,,,,V3S 1Z2
+10355 152 Street,,,,,Surrey,,,CA,,,,,,,,,,(604) 448-4809,,British Columbia,,,Guildford Town Centre,,,,V3R 7B9
+10348 King George Boulevard,,,,,Surrey,,,CA,,,,,,,,,,(604) 448-4808,,British Columbia,,,London Station,,,,V3T 2W5
+5639 Victoria Drive,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4853,,British Columbia,,,41st & Victoria,,,,V5P 3W2
+2230 West Broadway,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4874,,British Columbia,,,Broadway & Vine,,,,V6K 2E3
+1650 Davie Street,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4850,,British Columbia,,,Davie Street,,,,V6G 1V9
+4588 Dunbar St.,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4888,,British Columbia,,,Dunbar,,,,V6S 2G6
+2585 East Hastings St.,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4807,,British Columbia,,,East Hastings,,,,V5K 1Z1
+710 Granville St.,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4802,,British Columbia,,,Granville & Georgia,,,,V6Z 1E4
+351 Abbott Street,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4878,,British Columbia,,,Hastings & Abbott Street,,,,V6B 0G6
+2091 W 42nd Avenue,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4810,,British Columbia,,,Kerrisdale,,,,V6M 2B4
+1622 Salt Street,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4882,,British Columbia,,,Olympic Village,,,,V5Y 0E4
+1187 Robson Street,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4819,,British Columbia,,,Robson Street,,,,V6E 1B5
+201 - 1431 Continental Street,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4890,,British Columbia,,,Vancouver House,,,,V6Z 0G3
+3328 Kingsway Avenue,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4828,,British Columbia,,,Wessex - Kingsway,,,,V5R 5L1
+525 West Broadway,,,,,Vancouver,,,CA,,,,,,,,,,(604) 448-4804,,British Columbia,,,West Broadway,,,,V5Z 1E6
+4400 - 32nd Street,,,,,Vernon,,,CA,,,,,,,,,,(250) 549-1551,,British Columbia,,,Vernon Square,,,,V1T 9H2
+1907 Sooke Road,,,,,Victoria,,,CA,,,,,,,,,,(250) 474-0900,,British Columbia,,,Colwood Corners Shopping Centre,,,,V9B 1V8
+911 Yates Street,,,,,Victoria,,,CA,,,,,,,,,,(250) 360-0880,,British Columbia,,,Harris Green Village,,,,V8V 4X3
+3995 Quadra Street,,,,,Victoria,,,CA,,,,,,,,,,(250) 727-0246,,British Columbia,,,Saanich Centre,,,,V8X 1J8
+3170 Tillicum Road,,,,,Victoria,,,CA,,,,,,,,,,(250) 360-2654,,British Columbia,,,Tillicum Centre,,,,V9A 7C5
+875 Park Royal North,,,,,West Vancouver,,,CA,,,,,,,,,,(604) 448-4844,,British Columbia,,,Park Royal North,,,,V7T 1H9
+2151 Louie Drive,,,,,Westbank,,,CA,,,,,,,,,,(250) 768-8504,,British Columbia,,,Westbank,,,,V4T 3E6
+2781 Main Street SW,,,,,Airdrie,,,CA,,,,,,,,,,(587) 775-0337,,Alberta,,,Airdrie,,,,T4B 3S6
+8120 Beddington Blvd NW,,,,,Calgary,,,CA,,,,,,,,,,(403) 571-4940,,Alberta,,,Beddington Towne Centre,,,,T3K 2A8
+3630 Brentwood Road NW,,,,,Calgary,,,CA,,,,,,,,,,(403) 571-4933,,Alberta,,,Brentwood Village Mall,,,,T2L 1K8
+4701 - 130th Avenue. SE,,,,,Calgary,,,CA,,,,,,,,,,(403) 571-4964,,Alberta,,,First Calgary SE,,,,T2Z 4J2
+8330 MacLeod Trail SE,,,,,Calgary,,,CA,,,,,,,,,,(403) 571-4930,,Alberta,,,Heritage Plaza,,,,T2H 2V2
+5255 Richmond Road SW,,,,,Calgary,,,CA,,,,,,,,,,(403) 571-4932,,Alberta,,,London Place West,,,,T3E 7C4
+3545 - 32nd Avenue NE,,,,,Calgary,,,CA,,,,,,,,,,(403) 571-4931,,Alberta,,,London Town Square,,,,T1Y 6M6
+8888 Country Hills Blvd NW,,,,,Calgary,,,CA,,,,,,,,,,(403) 571-4968,,Alberta,,,Royal Oak Centre,,,,T3G 5T4
+11704 - 104th Avenue,,,,,Edmonton,,,CA,,,,,,,,,,(780) 944-4545,,Alberta,,,"104th Ave, Edmonton",,,,T5K 2T6
+14951 Stony Plain Road,,,,,Edmonton,,,CA,,,,,,,,,,(780) 944-4522,,Alberta,,,Jasper Gates,,,,T5P 4W1
+10531 - 51st Avenue,,,,,Edmonton,,,CA,,,,,,,,,,(780) 944-4523,,Alberta,,,London Centre,,,,T6H 0K5
+9450 137th Ave. N.W.,,,,,Edmonton,,,CA,,,,,,,,,,(780) 944-4521,,Alberta,,,North Town Centre,,,,T5E 6C2
+9704 - 19 Avenue NW,,,,,Edmonton,,,CA,,,,,,,,,,(780) 944-4557,,Alberta,,,South Edmonton Common,,,,T6N 1K5
+8882 - 170th Street,,,,,Edmonton,,,CA,,,,,,,,,,(780) 944-4526,,Alberta,,,West Edmonton Mall,,,,T5T 4M2
+10820 - 104B Avenue,,,,,Grande Prairie,,,CA,,,,,,,,,,(780) 538-3700,,Alberta,,,Gateway Power Centre,,,,T8V 7L6
+1240 2 Avenue A North,,,,,Lethbridge,,,CA,,,,,,,,,,(403) 320-8899,,Alberta,,,Centre Village Mall,,,,T1H 0E4
+3201 - 13th Avenue SE,,,,,Medicine Hat,,,CA,,,,,,,,,,(403) 528-8360,,Alberta,,,Medicine Hat,,,,T1B 1E2
+2004 - 50 Avenue,,,,,Red Deer,,,CA,,,,,,,,,,(403) 342-5222,,Alberta,,,Red Deer,,,,T4R 3A2
+999 Fir Street,,,,,Sherwood Park,,,CA,,,,,,,,,,(780) 944-4520,,Alberta,,,Village Market,,,,T8A 4N5
+104 - 375 St. Albert Trail,,,,,St. Albert,,,CA,,,,,,,,,,(780) 944-4548,,Alberta,,,St. Albert Centre Mall,,,,T8N 3K8
+2072 Prince of Wales Drive,,,,,Regina,,,CA,,,,,,,,,,(306) 546-1617,,Saskatchewan,,,First Regina East,,,,S4V 3A6
+4800 Gordon Road,,,,,Regina,,,CA,,,,,,,,,,(306) 949-1986,,Saskatchewan,,,Grasslands,,,,S4W 0B7
+110-215 Joseph Okemasis Drive,,,,,Saskatoon,,,CA,,,,,,,,,,(639) 804-5020,,Saskatchewan,,,Lakeside,,,,S7N 3A8
+134 Primrose Drive,,,,,Saskatoon,,,CA,,,,,,,,,,(306) 975-0740,,Saskatchewan,,,Lawson Heights,,,,S7K 5S6
+2323 8th Street East,,,,,Saskatoon,,,CA,,,,,,,,,,(306) 664-9500,,Saskatchewan,,,Saskatoon,,,,S7H 0V4
+1225 St. Marys Road,,,,,Winnipeg,,,CA,,,,,,,,,,(204) 253-1650,,Manitoba,,,St. Vital Centre,,,,R2M 5E5
