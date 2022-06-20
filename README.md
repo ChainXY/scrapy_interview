@@ -1,19 +1,17 @@
 # Scrapy Interview Test
 This is a small challenge designed to test your scraping abilities.
 ## Setup:
-1. Set up an environment and install scrapy. 
-    - We **strongly recommend** using miniconda for install, since installing scrapy in windows requires separate install of C++ build tools (https://docs.scrapy.org/en/latest/intro/install.html#windows)
-    - We recommend using python 3.9.
-    - You only need to install scrapy to do this task.
-    - Submissions not using scarpy will not be accepted.
-2. Run the provided londondrugs spider to make sure your install is working.
-    - To run a spider cd into this (\GitHub\scrapy_interview) folder, and run `scrapy crawl londondrugs -o londondrugs.csv` in the terminal.
-
-3. Once you have the envrionment set up and scrapy is working on your computer, reach out to us for the list of websites for your test.
-    - Use the provided item definition (fields) for your scrape. Do NOT create custom item fields. For instance, store hours should be in `item['store_hours']`.
+Set up an environment and install scrapy. 
+- We **strongly recommend** using miniconda for install, since installing scrapy in windows requires separate install of C++ build tools (https://docs.scrapy.org/en/latest/intro/install.html#windows)
+- We recommend using python 3.9.
+- You only need to install scrapy to do this task.
+- Submissions not using scrapy will not be accepted.
+## Test Run
+Run the provided londondrugs scrapy spider to make sure your setup is working.
+- To run a spider cd into this (\GitHub\scrapy_interview) folder, and run `scrapy crawl londondrugs -o londondrugs.csv` in the terminal.
 
 
-### Useful links:
+## Useful links:
 https://devhints.io/xpath
 
 https://docs.scrapy.org/en/latest/topics/selectors.html .get()/.getall() are equivalent to extract_first()/extract()
@@ -47,4 +45,9 @@ https://docs.scrapy.org/en/latest/topics/selectors.html .get()/.getall() are equ
 
     <img src="images/2022-05-24 10_19_57-anthropologie.py - ChainXY_Production - Visual Studio Code.png" width = 600px/>
 
+## Next Steps
+Once you have the envrionment set up and scrapy is working on your computer, reach out to us for the list of websites for your test.
+### Important considerations:
+- Use the provided item definition (fields/columns) for your scrape. **DO NOT** create custom item fields. For instance, store hours should be in `item['store_hours']`, address in `item['address']` etc.
+- We strongly recommend using the html selectors for scraping. Look at the provided londondrugs spider for examples.
 
