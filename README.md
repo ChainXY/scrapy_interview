@@ -5,11 +5,14 @@ Set up an environment and install scrapy.
 - We **strongly recommend** using miniconda for install, since installing scrapy in windows requires separate install of C++ build tools (https://docs.scrapy.org/en/latest/intro/install.html#windows)
 - We recommend using python 3.9.
 - Once you installed anaconda/miniconda, install scrapy with: 
-    `conda install -c conda-forge scrapy`
+ 
+        conda install -c conda-forge scrapy
 - Submissions not using scrapy will not be accepted.
 ## Test Run
 Run the provided londondrugs scrapy spider to make sure your setup is working.
-- To run a spider cd into this (\GitHub\scrapy_interview) folder, and run `scrapy crawl londondrugs -o londondrugs.csv` in the terminal.
+- To run a spider cd into this (\GitHub\scrapy_interview) folder, and run this command in the terminal.
+
+        scrapy crawl londondrugs -o londondrugs.csv
 
 
 ## Useful links:
