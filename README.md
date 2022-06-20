@@ -1,10 +1,11 @@
 # Scrapy Interview Test
-This is a small challenge designed to test your scraping abilities.
+Scrapy is a python framework designed to crawl/extract information from websites. This is a small challenge designed to test your scraping abilities. 
 ## Setup:
 Set up an environment and install scrapy. 
 - We **strongly recommend** using miniconda for install, since installing scrapy in windows requires separate install of C++ build tools (https://docs.scrapy.org/en/latest/intro/install.html#windows)
 - We recommend using python 3.9.
-- You only need to install scrapy to do this task.
+- Once you installed anaconda/miniconda, install scrapy with: 
+    `conda install -c conda-forge scrapy`
 - Submissions not using scrapy will not be accepted.
 ## Test Run
 Run the provided londondrugs scrapy spider to make sure your setup is working.
@@ -46,8 +47,7 @@ https://docs.scrapy.org/en/latest/topics/selectors.html .get()/.getall() are equ
     <img src="images/2022-05-24 10_19_57-anthropologie.py - ChainXY_Production - Visual Studio Code.png" width = 600px/>
 
 ## Next Steps
-Once you have the envrionment set up and scrapy is working on your computer, reach out to us for the list of websites for your test.
+Once you have the envrionment set up and scrapy is working on your computer, reach out to us for the list of websites for your test. Once you receive the list of websites to scrape, you will have 2 hours to complete this challenge.
 ### Important considerations:
 - Use the provided item definition (fields/columns) for your scrape. **DO NOT** create custom item fields. For instance, store hours should be in `item['store_hours']`, address in `item['address']` etc.
 - We strongly recommend using the html selectors for scraping. Look at the provided londondrugs spider for examples.
-
