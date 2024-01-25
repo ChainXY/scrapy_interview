@@ -1,28 +1,34 @@
 # Scrapy Interview Test
-Scrapy is a python framework designed to crawl/extract information from websites. This is a small challenge designed to test your scraping abilities. 
+Scrapy is a Python framework designed to crawl/extract information from websites. This is a small challenge designed to test your scraping abilities. 
 ## Setup:
-Set up an environment and install scrapy. 
-- We **strongly recommend** using miniconda for install, since installing scrapy in windows requires separate install of C++ build tools (https://docs.scrapy.org/en/latest/intro/install.html#windows)
-- We recommend using python 3.9.
-- Once you installed anaconda/miniconda, install scrapy with: 
+Set up an environment and install Scrapy. 
+- We **strongly recommend** using [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/), since installing Scrapy in Windows [requires separate install of C++ build tools](https://docs.scrapy.org/en/latest/intro/install.html#windows)
+- We recommend using python 3.10.
+- Once you have installed Anaconda/Miniconda, install Scrapy with: 
  
         conda install -c conda-forge scrapy
-- Submissions not using scrapy will not be accepted.
+- IMPORTANT: Submissions not using Scrapy will not be accepted.
 ## Test Run
-Run the provided londondrugs scrapy spider to make sure your setup is working.
-- To run a spider cd into this (\GitHub\scrapy_interview) folder, and run this command in the terminal.
-
+Run the provided `londondrugs.py` Scrapy Spider to make sure your setup is working.
+- To run a Spider, navigate to this folder in Terminal:
+  ```
+        cd GitHub\scrapy_interview
+  ```
+  and run the command:
+  ```
         scrapy crawl londondrugs -o londondrugs.csv
+  ```
 
+## Useful Links
+[XPath cheatsheet](https://devhints.io/xpath)
 
-## Useful links:
-https://devhints.io/xpath
+[Scrapy Selectors](https://docs.scrapy.org/en/latest/topics/selectors.html)
 
-https://docs.scrapy.org/en/latest/topics/selectors.html .get()/.getall() are equivalent to extract_first()/extract()
+- Note: `.get()` and `.getall()` are equivalent to `.extract_first()` and `.extract()`, respectively.
 
-## Debugging scrapy in vscode
+## Debugging Scrapy in VSCode
 
-1. Go to debugging menu on the left-side of the UI, and click create a launch.json file
+1. Go to the debugging menu on the left-side of the UI, and click create a launch.json file
 
     <img src="images/2022-05-24 10_16_13-OverlayWindow.png" width = 300px/>
 
@@ -45,18 +51,21 @@ https://docs.scrapy.org/en/latest/topics/selectors.html .get()/.getall() are equ
         ]
     }
     ```
-3. Set up breakpoints in your spider (e.g., on yielding an item) and start the debugger by clicking Python: Launch Scrapy Spider in the debug menu:
+3. Set up breakpoints in your Spider (e.g., on yielding an item) and start the debugger by clicking Python: Launch Scrapy Spider in the debug menu:
 
     <img src="images/2022-05-24 10_19_57-anthropologie.py - ChainXY_Production - Visual Studio Code.png" width = 600px/>
 
 ## Next Steps
-Once you have the envrionment set up and scrapy is working on your computer, reach out to us for the list of websites for your test. Once you receive the list of websites to scrape, you will have 2 hours to complete this challenge.
+Once you have the environment set up and Scrapy is working on your computer, reach out to us for the list of websites for your test. Once you receive the list of websites to scrape, you will have <b>*two (2) hours*</b> to complete the challenge.
 
-Zip the scrapy_interview folder (containing the csvs and spiders) and email the zip file.
-### Important considerations:
-- Use the provided item definition (fields/columns) for your scrape. **DO NOT** create custom item fields. For instance, store hours should be in `item['store_hours']`, address in `item['address']` etc.
-- We strongly recommend using the html selectors for scraping. Look at the provided londondrugs spider for examples.
+## Submission
 
-### Tips
-- When you are looking at the website, think about how to best extract information from it. Do you want to bruteforce it and get information form HTML? Can you find out what API gets called by the page and get structured information from there?
-- When you see a website that spreads information about locations across many pages, think about a way to extract the links to pages and only then use the callback parse function on each individual page.
+Compress the scrapy_interview folder (containing the csvs and Spiders) and email the ZIP file.
+
+## Important considerations:
+- Use the provided item definitions (fields/columns) for your scrape. **DO NOT** create custom item fields. For instance, store hours should be in `item['store_hours']`, address in `item['address']`, etc.
+- We strongly recommend using the Scrapy Selectors for HTML scraping. Look at the provided `londondrugs.py` Spider for examples.
+
+## Tips
+- When evaluating a website, think about the most efficient way to extract information from it. Should you get the information from the source HTML using Selectors? Could there be an API call whose response contains the information you want in a structured object, and if so, can you extract it?
+- When dealing with a website that spreads store information across many pages, think about a way to extract the store URLs, and only then use the callback function in Scrapy Requests on each individual page.
