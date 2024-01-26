@@ -9,14 +9,14 @@ Set up an environment and install Scrapy.
         conda install -c conda-forge scrapy
 - IMPORTANT: Submissions not using Scrapy will not be accepted.
 ## Test Run
-Run the provided `londondrugs.py` Scrapy Spider to make sure your setup is working.
+Run the provided `sweetwaterscoffeetea.py` Scrapy Spider to make sure your setup is working.
 - To run a Spider, navigate to this folder in Terminal:
   ```
         cd GitHub\scrapy_interview
   ```
   and run the command:
   ```
-        scrapy crawl londondrugs -o londondrugs.csv
+        scrapy crawl sweetwaterscoffeetea -o sweetwaterscoffeetea.csv
   ```
 
 ## Useful Links
