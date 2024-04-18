@@ -22,8 +22,6 @@ Run the provided `sweetwaterscoffeetea.py` Scrapy Spider to make sure your setup
 ```
         [scrapy.core.engine] INFO: Spider closed (finished)
 ```
-- and this log:
-  ![image](https://github.com/ChainXY/scrapy_interview/assets/22741899/3350911d-5609-4d06-acf9-555002e0d4a7)
 
 There should be no errors and the CSV file should be populated with data.
 
