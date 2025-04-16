@@ -8,9 +8,11 @@ Set up an environment and install Scrapy.
  
         conda install -c conda-forge scrapy
 - IMPORTANT: Submissions not using Scrapy will not be accepted.
+- Clone this GitHub repository.
+  
 ## Test Run
 Run the provided `sweetwaterscoffeetea.py` Scrapy Spider to make sure your setup is working.
-- To run a Spider, navigate to this folder:
+- To run a Spider, navigate to the wherever you cloned scrapy_interview:
   ```
         cd GitHub\scrapy_interview
   ```
@@ -18,7 +20,7 @@ Run the provided `sweetwaterscoffeetea.py` Scrapy Spider to make sure your setup
   ```
         scrapy crawl sweetwaterscoffeetea -o sweetwaterscoffeetea.csv
   ```
-- After the Spider finishes running, should see this as the last line on on your console:
+- After the Spider finishes running, should see this on the last line on on your console:
 ```
         [scrapy.core.engine] INFO: Spider closed (finished)
 ```
