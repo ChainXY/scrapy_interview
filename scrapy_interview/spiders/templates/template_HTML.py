@@ -8,7 +8,6 @@ from scrapy_interview.items import ChainItem
 class TemplateSpider(scrapy.Spider):
     name = "template" #this is the name you use in the scrapy crawl call
     headers = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'}
-    # parse_address={'enabled':True}
 
     def start_requests(self):
         url = ''
@@ -31,6 +30,6 @@ class TemplateSpider(scrapy.Spider):
             item['latitude'] = ''
             item['longitude'] = ''
             item['store_hours'] = '' #comma-separated list of open hours by day
-            item['other_fields'] = '' #json of other information that can be captured by location
+            item['other_fields'] = '' #other information that can be captured by location
             item['coming_soon'] = '' #boolean
             yield item
