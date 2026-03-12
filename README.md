@@ -3,7 +3,7 @@ Scrapy is a Python framework designed to crawl/extract information from websites
 ## Setup:
 Set up an environment and install Scrapy. 
 - We **strongly recommend** using [Miniconda](https://docs.conda.io/projects/miniconda/en/latest/), since installing Scrapy in Windows [requires separate install of C++ build tools](https://docs.scrapy.org/en/latest/intro/install.html#windows)
-- We recommend using python 3.10.
+- We recommend using python 3.14.
 - Once you have installed Anaconda/Miniconda, install Scrapy with: 
  
         conda install -c conda-forge scrapy
