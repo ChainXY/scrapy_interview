@@ -8,9 +8,9 @@ from scrapy_interview.items import ChainItem
 class TemplateSpider(scrapy.Spider):
     name = "template" #this is the name you use in the scrapy crawl call
     headers = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'}
-    history = []
+    history = set()
 
-    def start_requests(self):
+    async def start(self):
         url = ''
         yield Request(url=url, headers=self.headers, callback=self.parse)
 
