@@ -1,3 +1,4 @@
 *.json
 !launch.json
 __pycache__/
+*.csv
