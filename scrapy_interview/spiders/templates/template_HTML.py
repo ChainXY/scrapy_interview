@@ -29,7 +29,7 @@ class TemplateSpider(scrapy.Spider):
             item['phone_number'] = ''
             item['latitude'] = ''
             item['longitude'] = ''
-            item['store_hours'] = '' #string of hours, e.g. 'Monday: 9:00AM-5:00PM, Tuesday: ..., Sunday: Closed' comma-separated list of open hours by day
+            item['store_hours'] = '' #string of hours, e.g. 'Monday: 9:00AM-5:00PM, Tuesday: ..., Sunday: Closed'
             item['other_fields'] = '' #other information that can be captured by location
             item['coming_soon'] = '' #boolean
             yield item
