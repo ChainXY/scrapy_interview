@@ -32,4 +32,5 @@ class TemplateSpider(scrapy.Spider):
             item['store_hours'] = '' #string of hours, e.g. 'Monday: 9:00AM-5:00PM, Tuesday: ..., Sunday: Closed'
             item['other_fields'] = '' #other information that can be captured by location
             item['coming_soon'] = '' #boolean
+            item['closed'] = '' #boolean
             yield item
